@@ -7,10 +7,12 @@ const Footer: React.FC = () => {
   const isInView = useInView(footerRef, { threshold: 0.1 });
 
   const platforms = [
-    { name: "Twitter", url: "https://twitter.com/yourprofile" },
-    { name: "LinkedIn", url: "https://linkedin.com/in/yourprofile" },
-    { name: "GitHub", url: "https://github.com/yourprofile" },
-    { name: "Dribbble", url: "https://dribbble.com/yourprofile" },
+    { name: "Twitter", url: "https://x.com/Oluwanifemi107" },
+    {
+      name: "LinkedIn",
+      url: "https://www.linkedin.com/in/oluwanifemi-orimoloye-6746052b5/",
+    },
+    { name: "GitHub", url: "https://github.com/Oluwanife441" },
   ];
 
   const quickLinks = [
