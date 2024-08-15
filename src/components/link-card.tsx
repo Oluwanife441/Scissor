@@ -45,7 +45,7 @@ const LinkCard: React.FC<LinkCardProps> = ({ url, fetchUrls }) => {
           {url?.title}
         </span>
         <span className="text-2xl text-blue-400 font-bold hover:underline cursor-pointer">
-          https://scissor.com/
+          scissor-orpin.vercel.app/
           {url?.custom_url ? url?.custom_url : url.short_url}
         </span>
         <span className="flex items-center gap-1 hover:underline cursor-pointer break-all">
@@ -60,7 +60,9 @@ const LinkCard: React.FC<LinkCardProps> = ({ url, fetchUrls }) => {
         <Button
           variant="ghost"
           onClick={() =>
-            navigator.clipboard.writeText(`localhost:5173/${url?.short_url}`)
+            navigator.clipboard.writeText(
+              `scissor-orpin.vercel.app/${url?.short_url}`
+            )
           }
         >
           <Copy />

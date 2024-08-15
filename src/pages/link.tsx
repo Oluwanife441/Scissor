@@ -93,11 +93,11 @@ const Link: React.FC = () => {
             {url?.title}
           </span>
           <a
-            href={`https://scissor.in/${link}`}
+            href={`scissor-orpin.vercel.app/${link}`}
             target="_blank"
             className="text-3xl sm:text-4xl text-blue-400 font-bold hover:underline cursor-pointer break-all"
           >
-            https://scissor.in/{link}
+            scissor-orpin.vercel.app/{link}
           </a>
           <a
             href={url?.original_url}
@@ -115,7 +115,7 @@ const Link: React.FC = () => {
               variant="ghost"
               onClick={() =>
                 navigator.clipboard.writeText(
-                  `localhost:5173/${url?.short_url}`
+                  `scissor-orpin.vercel.app/${url?.short_url}`
                 )
               }
             >
