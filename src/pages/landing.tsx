@@ -40,11 +40,11 @@ const LandingPage = () => {
           Shorten
         </Button>
       </form>
-      <img src="/tech.png" alt="banner" className="w-full my-11 md:px-11" />
+      <img src="/techy.png" alt="banner" className="w-full my-11 md:px-11" />
       <Accordion type="multiple" className="w-full md:px-11">
         <AccordionItem value="item-1">
           <AccordionTrigger>
-            How does the ScissorUrl URL shortener work?
+            How does the scissor URL shortener work?
           </AccordionTrigger>
           <AccordionContent>
             When you enter a long URL, our system generates a shorter version of

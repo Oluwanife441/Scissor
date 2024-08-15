@@ -33,7 +33,7 @@ const Header: React.FC = () => {
     <>
       <nav className="py-4 flex justify-between items-center">
         <Link to="/">
-          <img src="/logo.png" className="h-16" alt="Trimmer Logo" />
+          <img src="/scissorlogo.png" className="h-16" alt="Trimmer Logo" />
         </Link>
         <div>
           {!user ? (
