@@ -3,7 +3,6 @@
 import { useNavigate } from "react-router-dom";
 import { useEffect, ReactNode } from "react";
 import { useUrlContext } from "@/context";
-import { BarLoader } from "react-spinners";
 
 interface RequireAuthProps {
   children: ReactNode;

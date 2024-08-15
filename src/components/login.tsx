@@ -12,10 +12,10 @@ import { Button } from "./ui/button";
 import { BeatLoader } from "react-spinners";
 import Error from "./error";
 import { login } from "@/db/apiAuth";
-import useFetch from "@/hooks/use-fetch";
 import * as Yup from "yup";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import { useUrlContext } from "@/context";
+import useMyFetch from "@/hooks/use-fetcth2";
 
 interface FormData {
   email: string;
@@ -43,7 +43,7 @@ const Login: React.FC = () => {
       [name]: value,
     }));
   };
-  const { data, loading, error, fn: fnLogin } = useFetch(login, formData);
+  const { data, loading, error, fn: fnLogin } = useMyFetch(login, formData);
   const { fetchUser } = useUrlContext();
 
   useEffect(() => {

@@ -6,10 +6,10 @@ import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { BarLoader } from "react-spinners";
 
-interface UrlData {
-  id: string;
-  original_url: string;
-}
+// interface UrlData {
+//   id: string;
+//   original_url: string;
+// }
 
 const RedirectLink: React.FC = () => {
   const { id } = useParams<{ id: string }>();

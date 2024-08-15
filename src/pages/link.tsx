@@ -11,15 +11,15 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Location from "@/components/location-stats";
 import Device from "@/components/device-stats";
 
-interface Url {
-  id: string;
-  title: string;
-  custom_url?: string;
-  short_url: string;
-  qr: string;
-  original_url?: string;
-  created_at?: string;
-}
+// interface Url {
+//   id: string;
+//   title: string;
+//   custom_url?: string;
+//   short_url: string;
+//   qr: string;
+//   original_url?: string;
+//   created_at?: string;
+// }
 
 const Link: React.FC = () => {
   const navigate = useNavigate();
