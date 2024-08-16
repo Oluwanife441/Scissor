@@ -29,6 +29,7 @@ const RedirectLink: React.FC = () => {
 
   useEffect(() => {
     if (!loading && data) {
+      window.location.href = data.original_url;
       fnStats();
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
