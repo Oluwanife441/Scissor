@@ -1,6 +1,5 @@
-// import { Button } from "./components/ui/button";
-import AppLayout from "./layouts/app-layout";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import AppLayout from "./layouts/app-layout";
 import LandingPage from "./pages/landing";
 import Dashboard from "./pages/dashboard";
 import Auth from "./pages/auth";
@@ -9,6 +8,10 @@ import RedirectLink from "./pages/redirect-link";
 import RequireAuth from "./components/requireAuth";
 
 const router = createBrowserRouter([
+  {
+    path: "/:id",
+    element: <RedirectLink />,
+  },
   {
     element: <AppLayout />,
     children: [
@@ -36,13 +39,10 @@ const router = createBrowserRouter([
           </RequireAuth>
         ),
       },
-      {
-        path: "/:id",
-        element: <RedirectLink />,
-      },
     ],
   },
 ]);
+
 function App() {
   return <RouterProvider router={router} />;
 }
