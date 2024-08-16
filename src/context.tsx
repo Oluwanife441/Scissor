@@ -1,12 +1,17 @@
-import { createContext, useContext, useEffect, ReactNode } from "react";
+import {
+  createContext,
+  useContext,
+  useEffect,
+  useState,
+  ReactNode,
+} from "react";
 import { getCurrentUser } from "./db/apiAuth";
+import supabase from "./db/supabase";
 import useFetch from "./hooks/use-fetch";
 
-// Define types for the user and context
 interface User {
-  id: string; // or number, depending on your data type
+  id: string;
   role?: string;
-  // Add other properties if necessary
 }
 
 interface UrlContextType {
@@ -23,12 +28,30 @@ interface UrlProviderProps {
 }
 
 const UrlProvider: React.FC<UrlProviderProps> = ({ children }) => {
-  const { data: user, loading, fn: fetchUser } = useFetch(getCurrentUser);
+  const [user, setUser] = useState<User | null>(null);
+  const { loading, fn: fetchUser } = useFetch(async () => {
+    const currentUser = await getCurrentUser();
+    setUser(currentUser);
+  });
 
-  const isAuthenticated = user?.role === "authenticated";
+  const isAuthenticated = user !== null;
 
   useEffect(() => {
     fetchUser();
+  }, [fetchUser]);
+
+  useEffect(() => {
+    const { data: authListener } = supabase.auth.onAuthStateChange((event) => {
+      if (event === "SIGNED_IN") {
+        fetchUser();
+      } else if (event === "SIGNED_OUT") {
+        setUser(null);
+      }
+    });
+
+    return () => {
+      authListener.subscription.unsubscribe();
+    };
   }, [fetchUser]);
 
   return (
