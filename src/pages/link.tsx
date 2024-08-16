@@ -86,7 +86,6 @@ const Link: React.FC = () => {
         </span>
         <a
           href={`https://scissor-orpin.vercel.app/${link}`}
-          target="_blank"
           className="text-3xl sm:text-4xl text-blue-400 font-bold hover:underline cursor-pointer break-all"
         >
           scissor-orpin.vercel.app/{link}
