@@ -93,7 +93,7 @@ const Link: React.FC = () => {
             {url?.title}
           </span>
           <a
-            href={`scissor-orpin.vercel.app/${link}`}
+            href={`https://scissor-orpin.vercel.app/${link}`}
             target="_blank"
             className="text-3xl sm:text-4xl text-blue-400 font-bold hover:underline cursor-pointer break-all"
           >
@@ -115,7 +115,7 @@ const Link: React.FC = () => {
               variant="ghost"
               onClick={() =>
                 navigator.clipboard.writeText(
-                  `scissor-orpin.vercel.app/${url?.short_url}`
+                  `https://scissor-orpin.vercel.app/${link}`
                 )
               }
             >

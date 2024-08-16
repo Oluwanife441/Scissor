@@ -61,7 +61,7 @@ const LinkCard: React.FC<LinkCardProps> = ({ url, fetchUrls }) => {
           variant="ghost"
           onClick={() =>
             navigator.clipboard.writeText(
-              `scissor-orpin.vercel.app/${url?.short_url}`
+              `https://scissor-orpin.vercel.app/${url?.short_url}`
             )
           }
         >
