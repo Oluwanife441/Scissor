@@ -20,7 +20,14 @@ const RedirectLink: React.FC = () => {
       fn();
     }
   }, [id, fn]);
-
+  if (data.original_url) {
+    console.log("Attempting redirect to:", data.original_url);
+    window.location.href = data.original_url;
+    // Fallback
+    setTimeout(() => {
+      window.open(data.original_url, "_blank");
+    }, 1000);
+  }
   useEffect(() => {
     if (!loading && data) {
       fnStats();
