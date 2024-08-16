@@ -6,10 +6,16 @@ import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { BarLoader } from "react-spinners";
 
+// interface UrlData {
+//   id: string;
+//   original_url: string;
+// }
+
 const RedirectLink: React.FC = () => {
   const { id } = useParams<{ id: string }>();
 
   const { loading, data, fn } = useFetch(getLongUrl, id);
+
   const { loading: loadingStats, fn: fnStats } = useMyFetch(storeClicks, {
     id: data?.id,
     originalUrl: data?.original_url,
@@ -24,17 +30,17 @@ const RedirectLink: React.FC = () => {
   useEffect(() => {
     if (!loading && data) {
       fnStats();
-      // Redirect to the original URL
-      window.location.href = data.original_url;
     }
-  }, [loading, data, fnStats]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [loading, data]);
 
   if (loading || loadingStats) {
     return (
-      <div className="flex flex-col items-center justify-center h-screen">
-        <BarLoader width={"200px"} color="#36d7b7" />
-        <p className="mt-4">Redirecting...</p>
-      </div>
+      <>
+        <BarLoader width={"100%"} color="#36d7b7" />
+        <br />
+        Redirecting...
+      </>
     );
   }
 
