@@ -91,7 +91,7 @@ Live URL: [https://scissor-orpin.vercel.app/](https://scissor-orpin.vercel.app/)
 2. Creating URL(custom/shortened) can take up to 2 - 3 minutes.
 3. Whenever the shortened link is copied and sent to a new user, the new user must create an account (that means both parties will have to create accounts with scissor).
 
-## How to tackle cons ( Can't open application in two tabs (max of 1) )
+## How to tackle cons ( Creating URL(custom/shortened) can take up to 2 - 3 minutes )
 
 1. Use a web fast browser (recommended: Google Chrome).
 2. Have a stable and fast internet connection everytime the web app is in use to enjoy the most of it.
