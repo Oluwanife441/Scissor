@@ -79,7 +79,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Contact
 
-Contact Info - [@https://x.com/Oluwanifemi107](https://x.com/Oluwanifemi107) - orimoloyeoluwanifemi@example.com
+Contact Info - [@https://x.com/Oluwanifemi107](https://x.com/Oluwanifemi107) - orimoloyeoluwanifemi@gmail.com
 
 Project Link: [https://github.com/Oluwanife441/scissor](https://github.com/Oluwanife441/scissor)
 
