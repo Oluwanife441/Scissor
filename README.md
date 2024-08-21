@@ -104,11 +104,7 @@ Live URL: [https://scissor-orpin.vercel.app/](https://scissor-orpin.vercel.app/)
 
 ## Screenshots
 
-1. **Landing page**
-![landing-page](https://drive.google.com/file/d/1QhyBPG_ENq_ve-US1c_vhcZabjgr83Tf/view?usp=drive_link)
-2. **Landing page 2**
-![landing-page](https://drive.google.com/file/d/1LlsSGJX2Y2Di55XYWK72Uxw-v_7rPwBF/view?usp=drive_link)
-3. **Dashboard**
-![landing-page](https://drive.google.com/file/d/1hU9lq0Dv4Co2UYi6bJZOuYGulCtHVL3V/view?usp=drive_link)
-4. **Dashboard 2**
-![landing-page](https://drive.google.com/file/d/12AyAr6MSosZvTxDFEE7zxvZf4X4V1G1g/view?usp=drive_link)
+<a href="https://ibb.co/ggLzCjd"><img src="https://i.ibb.co/WK4g1x0/Screenshot-2024-08-21-211610.png" alt="Screenshot-2024-08-21-211610" border="0"></a>
+<a href="https://ibb.co/0qFBfCZ"><img src="https://i.ibb.co/H7xNrtY/Screenshot-2024-08-21-211516.png" alt="Screenshot-2024-08-21-211516" border="0"></a>
+<a href="https://ibb.co/mNNxsdC"><img src="https://i.ibb.co/rddWPqG/Screenshot-2024-08-21-210334.png" alt="Screenshot-2024-08-21-210334" border="0"></a>
+<a href="https://ibb.co/JxjCYHB"><img src="https://i.ibb.co/LQdvT1k/Screenshot-2024-08-21-210305.png" alt="Screenshot-2024-08-21-210305" border="0"></a>
