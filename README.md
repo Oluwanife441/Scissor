@@ -101,3 +101,14 @@ Live URL: [https://scissor-orpin.vercel.app/](https://scissor-orpin.vercel.app/)
 6. Downloadable QR code images to user's local storage.
 7. Dashboard page to project users generated links and QR code
 8. Best location and device stats design to enable users to track their URLS. e.t.c...
+
+## Screenshots
+
+1. **Landing page**
+![landing-page](https://drive.google.com/file/d/1QhyBPG_ENq_ve-US1c_vhcZabjgr83Tf/view?usp=drive_link)
+2. **Landing page 2**
+![landing-page](https://drive.google.com/file/d/1LlsSGJX2Y2Di55XYWK72Uxw-v_7rPwBF/view?usp=drive_link)
+3. **Dashboard**
+![landing-page](https://drive.google.com/file/d/1hU9lq0Dv4Co2UYi6bJZOuYGulCtHVL3V/view?usp=drive_link)
+4. **Dashboard 2**
+![landing-page](https://drive.google.com/file/d/12AyAr6MSosZvTxDFEE7zxvZf4X4V1G1g/view?usp=drive_link)
