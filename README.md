@@ -100,6 +100,7 @@ Live URL: [https://scissor-orpin.vercel.app/](https://scissor-orpin.vercel.app/)
    - Click on the three dots by the far right of your browser (Google chrome).
    - Select "open new incognito tab".
    - Open this and run the application (https://scissor-orpin.vercel.app).
+  
 If issue persists, reload your browser and try again (and wait).
 
 ## Pros
