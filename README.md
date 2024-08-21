@@ -121,5 +121,11 @@ Live URL: [https://scissor-orpin.vercel.app/](https://scissor-orpin.vercel.app/)
 
 <a href="https://ibb.co/ggLzCjd"><img src="https://i.ibb.co/WK4g1x0/Screenshot-2024-08-21-211610.png" alt="Screenshot-2024-08-21-211610" border="0"></a>
 
+<h1> 5.Analytics (Location stats)</h1>
 
+<a href="https://ibb.co/sCgYrKR"><img src="https://i.ibb.co/jz8XFyf/Screenshot-2024-08-21-221139.png" alt="Screenshot-2024-08-21-221139" border="0"></a>
+
+<h1> 6.Analytics 2 (Device stats)</h1>
+
+<a href="https://ibb.co/fDMXXJY"><img src="https://i.ibb.co/cYJyyqc/Screenshot-2024-08-21-221117.png" alt="Screenshot-2024-08-21-221117" border="0"></a>
 
